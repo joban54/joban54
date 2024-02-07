@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {
+    font-family: 'Kanit'
+    , sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+
+.nav-bar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav-logo h2 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-right-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-right-menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+
+    font-family: 'Kanit', sans-serif;
+}
+
+.searchbar {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.searchbar input[type=search] {
+    background-color: rgb(228, 228, 228);
+    border: 0px;
+}
+.nav-right-menu h4:hover{color: red;}
+
+.container {
+    width: 80%;
+    margin: 70px auto ;
+}
+h1, h2 {
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+font-family:'Kanit'
+, sans-serif ;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.social-icons {
+    display: flex;
+    color: white;
+    gap: 20px;
+    list-style: none;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
