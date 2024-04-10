@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 26, 26);
+    padding: 0px 50px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav-logo h2 {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(186, 192, 16);
+}
+
+.nav-right {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-right-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-right-menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+
+    font-family: 'Kanit', sans-serif;
+}
+
+.searchbar {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.searchbar input[type=search] {
+    background-color: rgb(228, 228, 228);
+    border: 0px;
+}
+.nav-right-menu h4:hover{color: red;}
+
+.hero-banner {
+    width: 100%;
+    height: 400px;
+margin-top: 60px;
+    position: relative;
+}
+
+.hero-banner img {
+    width: 100vw;
+    height: 550px;
+    object-fit: cover;
+    object-position: 25% 20%;
+}
+
+.banner-headlines {
+    position: absolute;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 50%;
+    top: 50%;
+    margin-left: 150px;
+}
+
+.banner-headlines p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+
+.btn {
+    height: 40px;
+    width: 150px;
+    margin: 20px 0px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: red;
+}
+.btn:hover{background-color: rgb(187, 0, 0);}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-sec {
+    font-family: 'Kanit', sans-serif;
+
+    height: 390px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    margin-top: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-left {
+
+    padding: 20px;
+}
+
+.about-left img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about-right {
+    width: 500px;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about-more {
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.about-more a {
+    text-decoration: none;
+    color: rgb(220, 20, 20);
+    font-size: 15px;
+}
+
+.trainers-sec {
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 12px 0px ;
+    text-align: center;
+    display: flex;
+    font-family: 'Kanit'
+        , sans-serif;
+    flex-direction: column;
+
+}
+
+.trainers-sec h2 {
+    margin: 20px;
+}
+
+.trainers-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.trainers-card img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.trainers-card h2 {
+    margin: 0px;
+}
+
+.footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+font-family:'Kanit'
+, sans-serif ;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.social-icons {
+    display: flex;
+    color: white;
+    gap: 20px;
+    list-style: none;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
